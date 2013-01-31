@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:id="@+id/MainLinearLayout">
+	<LinearLayout style="@style/mainInnerLayout"
+		android:layout_weight="1" android:layout_height="match_parent"
+		android:layout_width="match_parent" android:id="@+id/MainInnerLayout">
+		<RelativeLayout android:layout_weight="1"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:id="@+id/MainInnerRelativeLayout">
+			<LinearLayout android:layout_height="match_parent"
+				android:layout_width="match_parent" android:id="@+id/MainSubInnerLinearLayout">
+				<TableLayout android:layout_height="match_parent"
+					android:layout_width="match_parent" android:id="@+id/tableLayout">
+					<TableRow android:layout_height="match_parent" android:id="@+id/tableRow2"
+						android:layout_gravity="fill" android:baselineAligned="false"
+						android:layout_width="match_parent" android:layout_weight="1">
+						<FrameLayout android:layout_height="match_parent"
+							android:layout_weight="1" android:layout_width="wrap_content"
+							android:layout_gravity="fill" android:id="@+id/frameLayout">
+							<LinearLayout android:layout_gravity="center"
+								android:layout_weight="1" android:id="@+id/boardLayout"
+								android:layout_width="269dip" android:layout_height="209dip">
+							</LinearLayout>
+							<FrameLayout android:layout_height="match_parent"
+								android:layout_width="wrap_content" android:layout_gravity="center"
+								android:id="@+id/frameLayoutInnerRow" android:visibility="visible">
+								<LinearLayout android:layout_height="wrap_content"
+									android:layout_width="match_parent" android:id="@+id/linearLayoutInnerRow"
+									android:layout_gravity="bottom" android:baselineAligned="false"
+									android:orientation="horizontal">
+									<Spinner android:layout_gravity="center"
+										android:layout_height="wrap_content" android:layout_weight="1"
+										android:id="@+id/spinnerLevel" android:layout_width="match_parent"></Spinner>
+									<Button android:text="@string/buttonRestart" android:id="@+id/buttonRestart"
+										android:layout_gravity="center" android:layout_height="wrap_content"
+										android:layout_width="wrap_content"></Button>
+								</LinearLayout>
+							</FrameLayout>
+						</FrameLayout>
+					</TableRow>
+					<TableRow android:id="@+id/tableRow3"
+						android:baselineAligned="false" android:layout_weight=".2"
+						android:layout_gravity="fill" android:layout_width="fill_parent"
+						android:layout_height="fill_parent" />
+
+				</TableLayout>
+			</LinearLayout>
+			`
+		</RelativeLayout>
+	</LinearLayout>
+
+
+</LinearLayout>

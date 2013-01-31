@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="mainTitle" parent="android:Widget.TextView">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:textColor">@color/helloColor</item>
+        <item name="android:textSize">@dimen/helloFontSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="mainLinearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:stretchColumns">1</item>
+    </style>
+    <style name="mainInnerLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="mainSubInnerLinearLayout">
+        <item name="android:baselineAligned">false</item>
+    </style>
+</resources>

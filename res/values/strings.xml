@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="helloText">Dot Connect</string>
+    <string name="appName">Dot Connect for Android</string>
+    <string name="buttonRestart">Restart</string>
+
+</resources>
